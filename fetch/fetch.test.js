@@ -6,5 +6,3 @@ describe("fetchData function", () => {
     expect(result).toBe("Data from API");
   });
 });
-
-//
