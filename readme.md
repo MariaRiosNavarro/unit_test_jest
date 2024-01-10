@@ -4,7 +4,7 @@ We need this in our jason package, so that jest accepts modules.
 
 ```
 "scripts": {
-"test": "NODE_OPTIONS=--experimental-vm-modules jest"
+"test": "NODE_OPTIONS=--experimental-vm-modules jest --verbose"
 },
 
 ```
@@ -19,5 +19,13 @@ npm run test
 npm test -- --coverage
 
 ```
+
+Add
+{
+"transform": {}
+}
+as jest.config.json
+
+for the mock
 
 (In GitHUb ACTIONS-> We can define, that the test is run first before commit)
