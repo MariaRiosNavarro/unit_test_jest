@@ -29,3 +29,5 @@ as jest.config.json
 for the mock
 
 (In GitHUb ACTIONS-> We can define, that the test is run first before commit)
+
+TEST
