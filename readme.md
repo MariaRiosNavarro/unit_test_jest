@@ -39,3 +39,8 @@ TEST befehle vor commit
 2. in the .git folder - hooks - copy the hook you want to change
 
 3. in the hook to use, remove sample and change waht you want
+
+---
+
+try test
+change
