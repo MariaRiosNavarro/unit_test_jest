@@ -8,5 +8,5 @@ export const gesamtWertdesLagers = (produkte) => {
 
 export const holeAlleProdukte = () => {
   //tun als hier ein datenbank kommen würde
-  return [{ name: "Heuschrecken", preis: 4, anzahl: 60 }];
+  return [{ name: "Heuschrecken", preis: 4, anzahl: 5 }];
 };
